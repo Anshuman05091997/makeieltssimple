@@ -1,0 +1,21 @@
+{
+    "name": "makes-ielts-simple",
+    "version": "1.0.0",
+    "description": "ielts learning project",
+    "type": "module",
+    "main": "app.js",
+    "engines":{"node":"14.x"},
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "team ae",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "firebase": "^9.6.5",
+        "firebase-tools": "^11.22.0"
+    }
+}
